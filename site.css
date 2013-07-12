@@ -52,14 +52,13 @@ p,img{
 	width: 980px;
 	margin: 0 auto;
 
-
 }
 .menu{
 	list-style-type: none;
 }
 .menuItem{
-	display: inline-block;
-	padding: 14px 17px 0 17px;
+	float: left;
+	padding: 14px 18px 0 17px;
 	height: 50px;
 	position: relative;
 }
@@ -70,9 +69,7 @@ p,img{
 	margin: 0 auto;
 	margin-top: 2px;
 }
-.pad-left{
-	padding-left: 16px;
-}
+
 .menuItem a{
 	color: #b3b09f;
 	font-size: 13px;
@@ -81,7 +78,7 @@ p,img{
 	
 }
 .activeItem{
-	padding: 14px 36px 0 36px;
+	padding: 14px 40px 0 40px;
 	background: #be9f55;
 }
 .activeItem a{
@@ -163,10 +160,13 @@ p,img{
 
 @-moz-document url-prefix() {
     .menuItem{
-        padding: 14px 16px 0 15px;
+        padding: 14px 17px 0 17px;
     }
     .activeItem{
-		padding: 14px 38px 0 39px;
+		padding: 14px 40px 0 40px;
+	}
+	.pad-left{
+		padding-left: 16px;
 	}
 }
 
