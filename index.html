@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta name="viewport" content="width=device-width" />
+        <title>Style</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="stylesheet" type="text/css" href="site.css">
+        <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+        <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="skin.css">
+        <script>
+            jQuery(document).ready(function() {
+                jQuery('#mycarousel').jcarousel({
+                    wrap: 'circular'
+                });
+            });
+        </script>
+    </head>
+    <body>
+    <div class="page">
+        <div class="header">
+            <div class="pageContainer">
+                <ul class="menu">
+                    <li class="menuItem"><a href="">О КОМПАНИИ</a></li>
+                    <li class="menuItem"><a href="">СТРАНЫ</a></li>
+                    <li class="menuItem"><a href="">КАТАЛОГ</a></li>
+                    <li class="menuItem pad-left"><a href="">ИСТОРИИ УСПЕХА</a></li>
+                    <li class="menuItem pad-left"><a href="">ЯЗЫК (RUSSIAN) <div class="arrow"></div></a></li>
+                    <li class="menuItem pad-left"><a href="">ВАЛЮТА (EUR) <div class="arrow"></div></a></li>
+                    <li class="menuItem activeItem"><a href="">КОНТАКТНАЯ ИНФОРМАЦИЯ<div class="arrow"></div></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="secondHeader">
+            <div class="topBaner">
+                <div class="pageContainer">
+                    <div class="topBanerText">
+                        <a href="" class="minHeaderText leftText">Аренда</a> Инвестиции <a href="" class="minHeaderText rightText">Продажа</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="quotes">
+            <div class="pageContainer">
+                <div class=" jcarousel-skin-tango">
+                    <div class="jcarousel-container jcarousel-container-horizontal" style="position: relative; display: block;">
+                        <div class="jcarousel-clip jcarousel-clip-horizontal" style="position: relative;">
+                            <ul id="mycarousel" class="jcarousel-list jcarousel-list-horizontal" >
+                                <li class="jcarousel-item jcarousel-item-horizontal jcarousel-item-1 jcarousel-item-1-horizontal" jcarouselindex="1" >
+                                    <div class="personContainer">
+                                        <img src="img/person1.jpg" alt="">
+                                        <p class="personName">Довольный Клиент</p>
+                                        <p class="personQuote">The Leading Properties of the<br>World — ведущая международная<br>компания по индивидуальному<br>подбору элитной недвижимости —<br>предлагает вам объекты премиум-<br>класса для инвестирования. </p>
+                                    </div>
+                                </li>
+                                <li class="jcarousel-item jcarousel-item-horizontal jcarousel-item-2 jcarousel-item-2-horizontal" jcarouselindex="2" >
+                                    <div class="personContainer">
+                                        <img src="img/person2.jpg" alt="">
+                                        <p class="personName">Довольный Клиент</p>
+                                        <p class="personQuote">Принятие решения<br>об инвестировании в жилую<br>или коммерческую недвижимость<br>происходит по-разному. Выбор<br>жилого объекта сопряжен<br>с эмоциональными решениями. </p>
+                                    </div>
+                                </li>
+                                <li class="jcarousel-item jcarousel-item-horizontal jcarousel-item-3 jcarousel-item-3-horizontal" jcarouselindex="3" >
+                                    <div class="personContainer">
+                                        <img src="img/person3.jpg" alt="">
+                                        <p class="personName">Довольный Клиент</p>
+                                        <p class="personQuote">Чтобы оценить реальную<br>доходность объекта недвижимости,<br>следует учитывать каждый фактор,<br>от которого она зависит.<br>Вкладывайте деньги только<br>в проверенные объекты. </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="jcarousel-prev jcarousel-prev-horizontal" style="display: block;"></div>
+                        <div class="jcarousel-next jcarousel-next-horizontal" style="display: block;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

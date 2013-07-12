@@ -1,0 +1,178 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@font-face{
+	font-family: 'FranclinGothic';
+	src: url('Franklin Gothic Medium Cond Regular.ttf') format('truetype');
+}
+@font-face{
+	font-family: 'FranklinGothicBook';
+	src:url('FranklinGothicBook.ttf') format('truetype');
+}
+body{
+	margin: 0;
+	font-family: 'FranclinGothic',"Trebuchet MS", Tahoma, "verdana",  Helvetica, arial, sans-serif;
+}
+ul{
+	margin:0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+input:focus{
+    outline:none;
+}
+textarea:focus{
+    outline: none;
+}
+img{
+    border: 0;
+}
+p,img{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.page{
+	min-width: 980px;
+}
+.header{
+	background-color: #262622;
+	height: 50px;
+}
+.pageContainer{
+	width: 982px;
+	margin: 0 auto;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+.menu{
+	list-style-type: none;
+}
+.menuItem{
+	display: inline-block;
+	padding: 14px 17px 0 17px;
+	height: 50px;
+	position: relative;
+}
+.menuItem div.arrow{
+	background: url(img/greyArrow.gif);
+	width: 9px;
+	height: 6px;
+	margin: 0 auto;
+	margin-top: 2px;
+}
+.pad-left{
+	padding-left: 16px;
+}
+.menuItem a{
+	color: #b3b09f;
+	font-size: 13px;
+	font-family: 'FranclinGothic';
+	letter-spacing: 2px;
+	
+}
+.activeItem{
+	padding: 14px 36px 0 36px;
+	background: #be9f55;
+}
+.activeItem a{
+	color: #f6f5ee;
+}
+.activeItem div.arrow{
+	background: url(img/whiteArrow.gif);
+}
+
+
+
+
+
+
+
+.secondHeader{
+	height: 244px;
+	border-bottom: 1px solid #ad914e;
+	background: rgb(216,180,97); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(216,180,97,1) 0%, rgba(190,159,85,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(216,180,97,1)), color-stop(100%,rgba(190,159,85,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(216,180,97,1) 0%,rgba(190,159,85,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(216,180,97,1) 0%,rgba(190,159,85,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(216,180,97,1) 0%,rgba(190,159,85,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(216,180,97,1) 0%,rgba(190,159,85,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8b461', endColorstr='#be9f55',GradientType=0 ); /* IE6-9 */
+}
+.topBaner{
+	width: 100%;
+	height: 244px;
+	background: url(img/topBaner.png) no-repeat center;
+}
+.topBanerText{
+	padding-top: 114px;
+	color: #f6f5ee;
+	text-align: center;
+	font-size: 115px;
+}
+.leftText{
+	float: left;
+	background: url(img/leftTopArrow.gif) no-repeat left;
+	padding-left: 20px;
+	color: #f6f5ee;
+}
+.rightText{
+	float: right;
+	background: url(img/rightTopArrow.gif) no-repeat right;
+	padding-right: 20px;
+	color: #f6f5ee;
+}
+.minHeaderText{
+	font-size: 30px;
+	display: block;
+	margin-top: 74px;
+}
+.quotes{
+	height: 400px;
+	background: #fdfdfc;
+}
+.personContainer{
+	text-align: center;
+}
+.personName{
+	font-family:'FranklinGothicBook';
+	font-size: 20px;
+	color: #66655b;
+	margin-top: 12px;
+}
+.personQuote{
+	font-family: Arial;
+	color: #66655b;
+	font-size: 14px;
+	line-height: 18px;
+	margin-top: 16px;
+}
+
+
+@-moz-document url-prefix() {
+    .menuItem{
+        padding: 14px 16px 0 15px;
+    }
+    .activeItem{
+		padding: 14px 38px 0 39px;
+	}
+}
+
+
+
+
+
+
+
+
+
