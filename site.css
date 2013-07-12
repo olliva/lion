@@ -42,7 +42,7 @@ p,img{
 
 
 .page{
-	min-width: 1000px;
+	min-width: 980px;
 }
 .header{
 	background-color: #262622;
@@ -51,6 +51,7 @@ p,img{
 .pageContainer{
 	width: 980px;
 	margin: 0 auto;
+
 
 }
 .menu{
@@ -124,12 +125,14 @@ p,img{
 	background: url(img/leftTopArrow.gif) no-repeat left;
 	padding-left: 20px;
 	color: #f6f5ee;
+	margin-left: 20px;
 }
 .rightText{
 	float: right;
 	background: url(img/rightTopArrow.gif) no-repeat right;
 	padding-right: 20px;
 	color: #f6f5ee;
+	margin-right: 20px;
 }
 .minHeaderText{
 	font-size: 30px;
